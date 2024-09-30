@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+    table-layout: fixed; 
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+video {
+    width: 100%;
+    height: auto;
+}
