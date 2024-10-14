@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 20% 50% 30%;
+}
+.grid-items{
+    border: 10px solid aqua;
+
+
+}
+.navbar,.footer,.image,.COPYRIGHT{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align:center;
+}
+ul{
+    
+}
