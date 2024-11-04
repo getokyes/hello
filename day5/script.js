@@ -12,17 +12,27 @@
 //let a;
 //let b= null;
 //console=log(typeof b);
-function validate(){
-    let un=document.getElementById('un').value;
-    let ps=document.getElementById('ps').value;
-    if(un==='ar'&& ps==='123'){
-        alert("login successful");
-    }
-    else{
-        alert("wrong");
-    }
+// function validate(){
+//     let un=document.getElementById('un').value;
+//     let ps=document.getElementById('ps').value;
+//     if(un==='ar'&& ps==='123'){
+//         alert("login successful");
+//     }
+//     else{
+//         alert("wrong");
+//     }
 
-}
+// }
 
-let 
+let  a=12;
+let b='12';
+console.log(a==b);
+console.log(a===b);
+
+let c=(x,y) =>{
+console.log("x+y");
+};
+c(17,34);
+console.log(x);
+
 

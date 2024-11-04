@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="https://www.awwwards.com/#courses">Awwards</a>
+    <button id="btn">link change</button>
+    <script>
+        let s = true;
+        changelink = () => {
+            let a1 = document.querySelector('a');
+            if (s) {
+                a1.setAttribute('href', 'https://growth.design/');
+                a1.textContent = 'Case study web';
+                s = false;
+            }
+            else {
+                a1.setAttribute('href', 'https://www.awwwards.com/#courses');
+                a1.textContent = 'awwwards';
+                s = true;
+            }
+        }
+        let btn = document.querySelector('#btn');
+        btn.addEventListener('click', changelink);
+    </script>
+</body>
+
+</html>
