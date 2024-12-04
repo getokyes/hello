@@ -1,0 +1,50 @@
+.disp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    background: linear-gradient(135deg, aquamarine, lightblue);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(135deg, bisque, peachpuff);
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, peachpuff, bisque);
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(1);
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.2);
+}
